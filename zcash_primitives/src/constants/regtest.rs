@@ -36,7 +36,7 @@ pub const HRP_SAPLING_PAYMENT_ADDRESS: &str = "yregtestsapling";
 /// Same as the testnet prefix.
 ///
 /// [`TransparentAddress::PublicKey`]: zcash_primitives::legacy::TransparentAddress::PublicKey
-pub const B58_PUBKEY_ADDRESS_PREFIX: [u8; 2] = [0x1d, 0x95];
+pub const B58_PUBKEY_ADDRESS_PREFIX: [u8; 2] = [0x1c, 0x95];
 
 /// The prefix for a Base58Check-encoded regtest [`TransparentAddress::Script`].
 /// Same as the testnet prefix.
